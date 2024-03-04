@@ -5,14 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>html+css</title>
   </head>
-  <body>
-    <h1 title="Heading h1">Main <i>title</i> page</h1>
-    <h2>Subheading</h2>
-    <h3>subheading</h3>
-    <h4>sub sbu Subheading</h4>
-    <h5>title</h5>
-    <h6>title</h6>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quidem necessitatibus, vitae laborum corrupti odit obcaecati ipsa consequatur minima quisquam eligendi suscipit ratione ullam, at impedit iusto, nulla assumenda quae. Repellendus repellat et quod suscipit, velit possimus vero autem eaque, ad perspiciatis eveniet recusandae odit?</p>
-    <ol><li>fist list</li></ol>
+    <!-- header{this is header}+main+footer{footer} -->
+    <header>
+      <!-- nav>ul>li*5>a{link article $} -->
+      <!-- nav>ul>li*5>a[href="#article_title_number_$"]{link article $}-->
+    <nav>
+      <!-- ul>li>a{About us}--> 
+      <!-- ul>li>a{About us:começa de . depois sacamos do nosso (START-HTML,page e depois about)}--> 
+
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./pages/about-us.html">About us</a></li>
+        </ul>
+      <!-- ol>li*2>a -->
+      <ol>
+        <li><a href="https://www.google.com/" target="_blank">google</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/" target="_blank">mdn</a></li>
+      </ol>
+    </nav>
+    </header>
+    <!-- <aside><nav></nav></aside> -->
+    <aside><nav><ul>
+  <li><a href="#article_title_number_1">link article 1</a></li>
+  <li><a href="#article_title_number_2">link article 2</a></li>
+  <li><a href="#article_title_number_3">link article 3</a></li>
+  <li><a href="#article_title_number_4">link article 3</a></li>
+  <li><a href="#article_title_number_5">link article 4</a></li>
+</ul></nav></aside> 
+    <main>
+      <!--article*5>(h2{article_title_number $}+p*3>lorem10) -->
+      <!--article#article_title_number_$*5>(h2{article_title_number $}+p*3>lorem10) -->
+      <article id="article_title_number_1">
+        <h2>article title number 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, porro?</p>
+        <p>Necessitatibus doloribus aliquam repellendus maiores quos beatae dignissimos corporis consectetur.</p>
+        <p>Ex ratione dicta vero odio fuga natus doloremque. Accusantium, corrupti!</p>
+      </article>
+      <article id="article_title_number_2">
+        <h2>article title number 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ex!</p>
+        <p>Eos exercitationem quam consequatur at! Similique error aliquid consequuntur non!</p>
+        <p>Maxime, esse? Impedit, eum repellendus veritatis labore perspiciatis consequuntur quaerat.</p>
+      </article>
+      <article id="article_title_number_3">
+        <h2>article title number 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quidem?</p>
+        <p>At amet nemo nisi. Illum quas praesentium totam autem odit.</p>
+        <p>Cumque quisquam esse vitae molestias saepe dicta iste ipsum animi?</p>
+      </article>
+      <article id="article_title_number_4">
+        <h2>article title number 4</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, quas!</p>
+        <p>Incidunt vel iure iusto. Quae minus consectetur rem omnis iure.</p>
+        <p>Maiores quas delectus quo nesciunt illum sequi quidem error omnis?</p>
+      </article>
+      <article id="article_title_number_5">
+        <h2>article title number 5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorem?</p>
+        <p>Architecto soluta excepturi, provident molestias quaerat nobis a quidem exercitationem.</p>
+        <p>Ad quis, incidunt ipsum amet minima esse minus sit qui!</p>
+      </article>
+    </main>
+    <footer>footer</footer>
   </body>
 </html>
