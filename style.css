@@ -1,23 +1,32 @@
-/* *{ 
-    font-size: 16px;
-} */
-body{
-    background-color: beige;
-}
 
-.center{
-    text-align: center;
+/* 
+*, body, tags
+*/
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: blue;
 }
-.alert-color{
-    color: red;
-  
+a{
+    color: inherit;
 }
-.article-heading{
-    color: rgb(203 102 32);
+.main-article{
+    font-size: 2em;
+    border: 2px darkorchid dotted;
     text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline 1px double rgb(226, 43, 43);
-    /*text-decoration-line: overline;
-    text-decoration-thickness: 1px;
-    text-decoration-style: double;
-    text-decoration-color:rgb(226, 43, 43); */
+color: rgb(247, 5, 5);
+}
+.main-article-heading{
+font-family: initial;
+border: inherit;
+}
+.main-article-content{
+line-height: 1.2;
+}
+.main-article-bloc{
+    border: inherit;
+    /*color: initial*/
+}
+.initial-align{
+    text-align: initial;
+}
