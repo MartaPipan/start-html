@@ -22,9 +22,10 @@ a{
     color: rgb(163, 186, 169);
 }
 .main-article-heading{
-    width: 44%;
+    width:60%;
     padding: 1%;
     margin: auto;
+    margin-top: 20px;
     /* background-color:aquamarine; */
     font-family: initial;
     border: inherit;
